@@ -1,0 +1,12 @@
+{
+        "type": "oracle",
+        "host":"10.8.47.38",
+        "username":"sca_dev",
+        "password":"SCALIGHT",
+        "database": "hmlgds",
+        "migrations": ["./src/database/migrations/*ts"],
+        "cli": {
+            "migrationsDir": "./src/database/migrations "
+        }
+        
+      }
